@@ -16,7 +16,7 @@ from langchain_huggingface import HuggingFaceEndpoint
 
 def register():
 
-    st.title("Register Your Chatbot")
+    st.title("Build Your Agent")
     agent_name = st.text_input("Agent Name")
     org_name = st.text_input("Organization Name")
     description = st.text_area("Organization Description")
