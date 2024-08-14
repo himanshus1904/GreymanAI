@@ -4,7 +4,8 @@
       "src": "main.py",
       "use": "@vercel/python",
       "config": {
-        "runtimeVersion": "3.11.x"
+        "runtimeVersion": "3.11.x",
+        "installCommand": "apt-get update && apt-get install -y python3-distutils && pip install -r requirements.txt"
       }
     }
   ],
