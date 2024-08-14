@@ -24,6 +24,7 @@ crewai==0.30.11
 dataclasses-json==0.6.7
 Deprecated==1.2.14
 distro==1.9.0
+distutils
 docstring-parser==0.15
 embedchain==0.1.103
 entrypoints==0.4
