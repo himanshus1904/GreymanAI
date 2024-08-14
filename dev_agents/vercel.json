@@ -3,6 +3,9 @@
     {
       "src": "main.py",
       "use": "@vercel/python"
+      "config": {
+        "runtimeVersion": "3.11.x"
+      }
     }
   ],
   "routes": [
